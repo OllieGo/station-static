@@ -11,5 +11,5 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     a: _imports_0
   };
 }
-var MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-41251cbc"], ["__file", "D:/coding/ollieGoBlog/pages/hot/hot.vue"]]);
+var MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-41251cbc"], ["__file", "F:/doe/station-static/pages/hot/hot.vue"]]);
 wx.createPage(MiniProgramPage);

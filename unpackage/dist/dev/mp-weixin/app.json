@@ -1,37 +1,38 @@
 {
-  "pages": [
-    "pages/hot/hot",
-    "pages/hotVideo/hotVideo",
-    "pages/my/my"
-  ],
-  "window": {
-    "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8"
-  },
-  "tabBar": {
-    "selectedColor": "#00ff00",
-    "list": [
-      {
-        "pagePath": "pages/hot/hot",
-        "text": "热搜",
-        "iconPath": "static/tabIcons/fire-black.png",
-        "selectedIconPath": "static/tabIcons/fire-green.png"
-      },
-      {
-        "pagePath": "pages/hotVideo/hotVideo",
-        "text": "热播",
-        "iconPath": "static/tabIcons/stock-black.png",
-        "selectedIconPath": "static/tabIcons/stock-green.png"
-      },
-      {
-        "pagePath": "pages/my/my",
-        "text": "我的",
-        "iconPath": "static/tabIcons/my-black.png",
-        "selectedIconPath": "static/tabIcons/my-green.png"
-      }
-    ]
-  },
-  "usingComponents": {}
+    "pages": [
+        "pages/hot/hot",
+        "pages/hotVideo/hotVideo",
+        "pages/my/my"
+    ],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+        "selectedColor": "#00ff00",
+        "list": [
+            {
+                "pagePath": "pages/hot/hot",
+                "text": "热搜",
+                "iconPath": "static/tabIcons/fire-black.png",
+                "selectedIconPath": "static/tabIcons/fire-green.png"
+            },
+            {
+                "pagePath": "pages/hotVideo/hotVideo",
+                "text": "热播",
+                "iconPath": "static/tabIcons/stock-black.png",
+                "selectedIconPath": "static/tabIcons/stock-green.png"
+            },
+            {
+                "pagePath": "pages/my/my",
+                "text": "我的",
+                "iconPath": "static/tabIcons/my-black.png",
+                "selectedIconPath": "static/tabIcons/my-green.png"
+            }
+        ]
+    },
+    "usingComponents": {},
+    "sitemapLocation": "sitemap.json"
 }
