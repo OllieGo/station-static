@@ -36,20 +36,20 @@
 			{
 				"pagePath": "pages/hot/hot",
 				"text": "热搜",
-				"iconPath": "static/tabIcons/fire-black.png",
-				"selectedIconPath": "static/tabIcons/fire-green.png"
+				"iconPath": "static/tab-icons/fire-black.png",
+				"selectedIconPath": "static/tab-icons/fire-green.png"
 			},
 			{
 				"pagePath": "pages/hotVideo/hotVideo",
 				"text": "热播",
-				"iconPath": "static/tabIcons/stock-black.png",
-				"selectedIconPath": "static/tabIcons/stock-green.png"
+				"iconPath": "static/tab-icons/stock-black.png",
+				"selectedIconPath": "static/tab-icons/stock-green.png"
 			},
 			{
 				"pagePath": "pages/my/my",
 				"text": "我的",
-				"iconPath": "static/tabIcons/my-black.png",
-				"selectedIconPath": "static/tabIcons/my-green.png"
+				"iconPath": "static/tab-icons/my-black.png",
+				"selectedIconPath": "static/tab-icons/my-green.png"
 			}
 		]
 	}
