@@ -9,11 +9,25 @@
 </template>
 
 <script>
+	import { getHotTabs } from 'api/hot';
 	export default {
 		data() {
 			return {
 
 			};
+		},
+		/**
+		 * created: 组件实现配置完成，但 DOM 未渲染，进行网络请求，配置响应式数据
+		 */
+		created() {
+			this.loadHotTabs();
+		},
+		methods: {
+			// 获取 热搜文章类型
+			async loadHotTabs() {
+				const res = await getHotTabs();
+				console.log(res);
+			}
 		}
 	}
 </script>
